@@ -5,7 +5,7 @@
 //int main(int argc, char* argv[])
 //{
 //    int myrank, numprocs, count;
-//    char message[20];
+//    char message[23];
 //    MPI_Status status;
 //    int TAG = 0;
 //
@@ -16,11 +16,11 @@
 //    if (myrank == 0)
 //    {
 //        strcpy(message, "Hi, Second Processor!");
-//        MPI_Send(message, strlen(message) + 1, MPI_CHAR, 1, TAG, MPI_COMM_WORLD);
+//        MPI_Send(message, strlen(message), MPI_CHAR, myrank == 0 ? 1 : 0, TAG, MPI_COMM_WORLD);
 //    }
 //    else 
 //    {
-//        MPI_Recv(message, 20, MPI_CHAR, 0, TAG, MPI_COMM_WORLD, &status);
+//        MPI_Recv(message, 23, MPI_CHAR, myrank == 0 ? 1 : 0, TAG, MPI_COMM_WORLD, &status);
 //        printf("received: %s\n", message);
 //    }
 //
