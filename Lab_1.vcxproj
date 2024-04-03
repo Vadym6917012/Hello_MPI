@@ -24,7 +24,11 @@
     <ClCompile Include="MPIHello.cpp">
       <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files %28x86%29\Microsoft SDKs\MPI\Include\x64;C:\Program Files %28x86%29\Microsoft SDKs\MPI\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
+    <ClCompile Include="Task1.3.cpp" />
     <ClCompile Include="Task1.cpp" />
+    <ClCompile Include="Task2.3.cpp" />
+    <ClCompile Include="Task2.cpp" />
+    <ClCompile Include="Task3.3.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>

@@ -19,6 +19,9 @@
     <Filter Include="Source Files\Lab2">
       <UniqueIdentifier>{bc9dc096-82b8-4137-a52a-32ce811e3cf5}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Lab3">
+      <UniqueIdentifier>{8ffbc173-c0e9-4be4-9678-d54ed95f08a4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="MPIHello.cpp">
@@ -32,6 +35,18 @@
     </ClCompile>
     <ClCompile Include="Task1.cpp">
       <Filter>Source Files\Lab2</Filter>
+    </ClCompile>
+    <ClCompile Include="Task2.cpp">
+      <Filter>Source Files\Lab2</Filter>
+    </ClCompile>
+    <ClCompile Include="Task1.3.cpp">
+      <Filter>Source Files\Lab3</Filter>
+    </ClCompile>
+    <ClCompile Include="Task2.3.cpp">
+      <Filter>Source Files\Lab3</Filter>
+    </ClCompile>
+    <ClCompile Include="Task3.3.cpp">
+      <Filter>Source Files\Lab3</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
